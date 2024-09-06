@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36d232b0beaf3f141937ba440cd80bfb, type: 3}
+  m_Name: WoodSword
+  m_EditorClassIdentifier: 
+  itemType: 1
+  sprite: {fileID: -1632613494, guid: 5f3ca823ff583d742b3f9fe4f64e5e5d, type: 3}
+  itemName: WoodSword
+  equipmentType: 2
+  damage: 0
+  blood: 0
+  jumpForce: 0
+  bowDamage: 0
+  staffDamage: 0
+  swordDamage: 2

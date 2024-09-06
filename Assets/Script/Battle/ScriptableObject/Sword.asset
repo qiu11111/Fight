@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395c1ad931d896b408272ee784d601bc, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  animationComtroller: {fileID: 9100000, guid: 16a7b3bc6424f354a8b79074445bfad0, type: 2}
+  SwordSlot: {fileID: 0}
+  componentData1:
+  - rid: 4431669056443252737
+  - rid: 4431669056443252736
+  - rid: 4431669146106724354
+  references:
+    version: 2
+    RefIds:
+    - rid: 4431669056443252736
+      type: {class: BattleComponentSword, ns: , asm: Assembly-CSharp}
+      data:
+        SwordSprite: {fileID: -1946832527, guid: 398a0e89d7feb7049a844833f40cc7e1, type: 3}
+    - rid: 4431669056443252737
+      type: {class: BattleMovementData, ns: , asm: Assembly-CSharp}
+      data:
+        attackData:
+        - movement: {x: 3, y: 0}
+        - movement: {x: 3, y: 0}
+        - movement: {x: 8, y: 0}
+    - rid: 4431669146106724354
+      type: {class: BattleDamageComponentData, ns: , asm: Assembly-CSharp}
+      data:
+        attackData:
+        - damage: 2
+          attackDistance: 3
+        - damage: 2
+          attackDistance: 3
+        - damage: 2
+          attackDistance: 5
+        whatIsEnemy:
+          serializedVersion: 2
+          m_Bits: 512

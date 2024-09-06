@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e9a14d48ec6914fbe9e477c552830d, type: 3}
+  m_Name: Weapon2
+  m_EditorClassIdentifier: 
+  attackNumber: 3
+  componentDatas:
+  - rid: 4431668919642095617
+  - rid: 4431668919642095618
+  - rid: 4431668966148276224
+  animatorController: {fileID: 9100000, guid: 1215d9773330869498984fb7ccabdad2, type: 2}
+  references:
+    version: 2
+    RefIds:
+    - rid: 4431668919642095617
+      type: {class: AttackSpriteData1, ns: , asm: Assembly-CSharp}
+      data:
+        attackData:
+        - sprites:
+          - {fileID: 1872221924, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+          - {fileID: -1918106114, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+          - {fileID: 803648362, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+          - {fileID: -629354277, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+          - {fileID: 1066402195, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+        - sprites:
+          - {fileID: -1247291253, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+          - {fileID: 1247679812, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+          - {fileID: 38882262, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+          - {fileID: 485525962, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+          - {fileID: 1133511181, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+        - sprites:
+          - {fileID: -1613575745, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+          - {fileID: -663710558, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+          - {fileID: 2111821990, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+          - {fileID: 2118481987, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+          - {fileID: -2086259963, guid: d3bba146afcb33c46884f13dacdfe62d, type: 3}
+    - rid: 4431668919642095618
+      type: {class: MovementData, ns: , asm: Assembly-CSharp}
+      data:
+        attackData:
+        - vs: {x: 5, y: 0}
+        - vs: {x: 8, y: 0}
+        - vs: {x: 5, y: 8}
+    - rid: 4431668966148276224
+      type: {class: AttackFrameData, ns: , asm: Assembly-CSharp}
+      data:
+        attackData:
+        - x: 0.86
+          y: 0.58
+          width: 2.76
+          height: 2.8
+        - x: 1.16
+          y: 0.58
+          width: 4.42
+          height: 2.8
+        - x: 1.16
+          y: 0.58
+          width: 4.42
+          height: 4.04

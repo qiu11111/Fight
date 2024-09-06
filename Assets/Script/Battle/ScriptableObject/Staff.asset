@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 395c1ad931d896b408272ee784d601bc, type: 3}
+  m_Name: Staff
+  m_EditorClassIdentifier: 
+  animationComtroller: {fileID: 9100000, guid: 2b946dbaeb9cafb4eb75074644520e48, type: 2}
+  SwordSlot: {fileID: 0}
+  componentData1:
+  - rid: 4431669123566272512
+  - rid: 4431669123566272513
+  - rid: 4431669146106724353
+  weapon: 2
+  references:
+    version: 2
+    RefIds:
+    - rid: 4431669123566272512
+      type: {class: BattleStaffSpriteData, ns: , asm: Assembly-CSharp}
+      data:
+        sprite: {fileID: 1634954300, guid: 35bac0314b966604da6c137c1d21b9ad, type: 3}
+        bullet: {fileID: 8874009869965940213, guid: 4dc05b1ff2465d74cb84b7007fdd1eda, type: 3}
+    - rid: 4431669123566272513
+      type: {class: BattleInputHoldData, ns: , asm: Assembly-CSharp}
+      data: 
+    - rid: 4431669146106724353
+      type: {class: AttackCoolComponentData, ns: , asm: Assembly-CSharp}
+      data:
+        attackCoolTime: 5
